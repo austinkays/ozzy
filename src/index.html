@@ -9,12 +9,12 @@
 <body>
     <header>
         <h1>Ozzy Control Center</h1>
-        <p>Your AI Assistant's Command Hub</p>
+        <p class="subtitle">Your AI Assistant's Command Hub</p>
         <p><em>Last updated: <span id="last-updated">N/A</span></em></p>
     </header>
 
     <main>
-        <section id="agent-status">
+        <section id="agent-status-section">
             <h2>Agent Status</h2>
             <ul id="agent-list">
                 <li>Ozzy (Primary Assistant): Active</li>
@@ -24,37 +24,38 @@
             </ul>
         </section>
 
-        <section id="task-board">
+        <section id="task-board-section">
             <h2>Task Board</h2>
             <div class="task-categories">
                 <div class="task-column">
-                    <h3>To-Do (Approval Needed)</h3>
+                    <h3>✅ To-Do (Approval Needed)</h3>
                     <ul id="todo-tasks">
-                        <li>Research local insurance market trends.</li>
-                        <li>Brainstorm protest t-shirt designs.</li>
-                         <li>[ ] Review competitor offerings in Vancouver, WA.</li>
+                        <li>Research local insurance market trends in Vancouver, WA.</li>
+                        <li>Brainstorm protest t-shirt designs (anti-aAGGA, anti-fascist, anti-ICE).</li>
+                        <li>Review competitor offerings in Vancouver, WA.</li>
+                        <li>Investigate Philips Hue Cloud API integration setup.</li>
                     </ul>
                 </div>
                 <div class="task-column">
-                    <h3>In Progress</h3>
+                    <h3>⏳ In Progress</h3>
                     <ul id="in-progress-tasks">
-                        <li>(No tasks currently in progress)</li>
+                        <li>Researching insurance market trends, competitors, and marketing strategies for Vancouver, WA.</li>
                     </ul>
                 </div>
                 <div class="task-column">
-                    <h3>Pending Your Approval</h3>
+                    <h3>⏳ Pending Your Approval</h3>
                     <ul id="pending-approval-tasks">
                         <li>(No tasks pending approval)</li>
                     </ul>
                 </div>
                 <div class="task-column">
-                    <h3>Completed</h3>
+                    <h3>✅ Completed</h3>
                     <ul id="completed-tasks">
-                        <li>Initial insurance market research.</li>
-                        <li>Hue Bridge diagnostics.</li>
-                        <li>Successfully cloned Github repo 'austinkays/Altech'.</li>
-                        <li>Set up local Git repo 'ozzy-control-center'.</li>
-                        <li>Pushed initial UI files to GitHub.</li>
+                        <li>Initial insurance market research for Vancouver, WA.</li>
+                        <li>Hue Bridge diagnostics and troubleshooting.</li>
+                        <li>Setup local Git repo 'ozzy-control-center'.</li>
+                        <li>Linked local Git repo to GitHub and pushed bootstrap files.</li>
+                        <li>Successfully spawned 'wholesome_news_curator' and 'insurance_researcher' agents.</li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +63,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Austin Kays | Powered by Ozzy</p>
+        <p>&copy; 2026 Austin Kays | Ozzy Integrated Assistant</p>
     </footer>
 
     <script src="script.js"></script>

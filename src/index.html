@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozzy Control Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ozzy Control Center</h1>
+        <p>Your AI Assistant's Command Hub</p>
+        <p><em>Last updated: <span id="last-updated">N/A</span></em></p>
+    </header>
+
+    <main>
+        <section id="agent-status">
+            <h2>Agent Status</h2>
+            <ul>
+                <li>Ozzy (Primary Assistant): Active</li>
+                <li>Wholesome News Curator: Running</li>
+                <li>Insurance Market Researcher: Active</li>
+                <!-- Agent statuses will be dynamically loaded here -->
+            </ul>
+        </section>
+
+        <section id="task-board">
+            <h2>Task Board</h2>
+            <div class="task-categories">
+                <div class="task-column">
+                    <h3>To-Do (Approval Needed)</h3>
+                    <ul id="todo-tasks">
+                        <li>Research local insurance market trends.</li>
+                        <li>Brainstorm protest t-shirt designs.</li>
+                    </ul>
+                </div>
+                <div class="task-column">
+                    <h3>In Progress</h3>
+                    <ul id="in-progress-tasks">
+                        <li>(No tasks currently in progress)</li>
+                    </ul>
+                </div>
+                <div class="task-column">
+                    <h3>Pending Your Approval</h3>
+                    <ul id="pending-approval-tasks">
+                        <li>(No tasks pending approval)</li>
+                    </ul>
+                </div>
+                <div class="task-column">
+                    <h3>Completed</h3>
+                    <ul id="completed-tasks">
+                        <li>Initial insurance market research.</li>
+                        <li>Hue Bridge diagnostics.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Austin Kays | Powered by Ozzy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
